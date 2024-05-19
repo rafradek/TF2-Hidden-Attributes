@@ -15,7 +15,7 @@
 				"windows"
 				{
 					"signature" "CPopulationManager::FindPopulationFileByShortName"
-					"read"	"50"
+					"read"	"53"
 					"read"	"0"
 				}
 			}
@@ -37,7 +37,7 @@
 				"linux"				"@_ZN15CEconItemSchema15BInitAttributesEP9KeyValuesP10CUtlVectorI10CUtlString10CUtlMemoryIS3_iEE"
 				"mac"				"@_ZN15CEconItemSchema15BInitAttributesEP9KeyValuesP10CUtlVectorI10CUtlString10CUtlMemoryIS3_iEE"
 			}
-			
+
 			"g_pFullFileSystem"
 			{
 				"library"			"engine"
@@ -56,30 +56,18 @@
 			"CPopulationManager::FindPopulationFileByShortName"
 			{
 				"library"			"server"
-				"windows"			"\x55\x8B\xEC\x81\xEC\x04\x01\x00\x00\x8D\x85\xFC\xFE\xFF\xFF\x68\x04\x01\x00\x00"
+				"windows"			"\x55\x8B\xEC\x81\xEC\x04\x01\x00\x00\x8D\x85"
 			}
 
 			"KeyValues::deleteThis"
 			{
 				"library"			"server"
-				"windows"			"\x56\x8B\xF1\x85\xF6\x74\x13\xE8\x44\xF6\xFF\xFF\xFF\x15\x34\xA3"
+				"windows"			"\x56\x8B\xF1\x85\xF6\x74\x13\xE8\x44\xF6\xFF\xFF\xFF\x15"
 				"linux"				"@_ZN9KeyValues10deleteThisEv"
 				"mac"				"@_ZN9KeyValues10deleteThisEv"
 			}
 
-			"AllocPooledString"
-			{
-				"library"			"server"
-				"linux"				"@_Z17AllocPooledStringPKc"
-				"mac"				"@_Z17AllocPooledStringPKc"
-			}
 
-			"CEconItemSchema::GetAttributeDefinitionByName"
-			{
-				"library"			"server"
-				"linux"				"@_ZN15CEconItemSchema28GetAttributeDefinitionByNameEPKc"
-				"mac"				"@_ZN15CEconItemSchema28GetAttributeDefinitionByNameEPKc"
-			}
         }
     }
 }
