@@ -33,7 +33,7 @@
 			"CEconItemSchema::BInitAttributes"
 			{
 				"library"			"server"
-				"windows"			"\x55\x8B\xEC\x83\xEC\x78\x53\x56\x8B\xD9"
+				"windows"			"\x55\x8B\xEC\x83\xEC\x74\x53\x56\x8B\xD9"
 				"linux"				"@_ZN15CEconItemSchema15BInitAttributesEP9KeyValuesP10CUtlVectorI10CUtlString10CUtlMemoryIS3_iEE"
 				"mac"				"@_ZN15CEconItemSchema15BInitAttributesEP9KeyValuesP10CUtlVectorI10CUtlString10CUtlMemoryIS3_iEE"
 			}
@@ -48,7 +48,7 @@
 			"ReadEncryptedKVFile"
 			{
 				"library"			"server"
-				"windows"			"\x55\x8B\xEC\x81\xEC\x04\x02\x00\x00\xB8\x2A\x2A\x2A\x2A"
+				"windows"			"\x55\x8B\xEC\x81\xEC\x04\x02\x00\x00\xB8"
 				"linux"				"@_Z19ReadEncryptedKVFileP11IFileSystemPKcPKhb"
 				"mac"				"@_Z19ReadEncryptedKVFileP11IFileSystemPKcPKhb"
 			}
@@ -62,12 +62,10 @@
 			"KeyValues::deleteThis"
 			{
 				"library"			"server"
-				"windows"			"\x56\x8B\xF1\x85\xF6\x74\x13\xE8\x44\xF6\xFF\xFF\xFF\x15"
+				"windows"			"\x56\x8B\xF1\x85\xF6\x74\x2A\xE8"
 				"linux"				"@_ZN9KeyValues10deleteThisEv"
 				"mac"				"@_ZN9KeyValues10deleteThisEv"
 			}
-
-
         }
     }
 }
