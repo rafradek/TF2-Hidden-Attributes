@@ -3,7 +3,7 @@
 
 public Plugin myinfo = 
 {
-	name = "TF2 Hidden Attribuites",
+	name = "TF2 Hidden Attributes",
 	author = "rafradek",
 	description = "Enables the use of hidden dev attributes",
 	version = "1.2",

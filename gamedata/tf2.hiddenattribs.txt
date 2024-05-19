@@ -14,8 +14,8 @@
 				}
 				"windows"
 				{
-					"signature" "CPopulationManager::FindPopulationFileByShortName"
-					"read"	"53"
+					"signature" "CTFMapsWorkshop::Refresh"
+					"read"	"12"
 					"read"	"0"
 				}
 			}
@@ -53,10 +53,10 @@
 				"mac"				"@_Z19ReadEncryptedKVFileP11IFileSystemPKcPKhb"
 			}
 
-			"CPopulationManager::FindPopulationFileByShortName"
+			"CTFMapsWorkshop::Refresh"
 			{
 				"library"			"server"
-				"windows"			"\x55\x8B\xEC\x81\xEC\x04\x01\x00\x00\x8D\x85"
+				"windows"			"\x55\x8B\xEC\x83\xEC\x2C\x53\x57\x8B\xF9\x8B\x0D"
 			}
 
 			"KeyValues::deleteThis"
